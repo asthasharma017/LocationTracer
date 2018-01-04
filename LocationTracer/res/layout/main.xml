@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2">"
+    
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str"
+        android:textColor="#FF00FF00"
+        android:gravity="center"
+        android:textSize="30px"
+        
+         />
+
+       <ImageView
+           android:layout_marginTop="75px"
+           android:id="@+id/img"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_launcher"
+           android:maxWidth="450px"
+           android:maxHeight="500px"
+            />
+       
+<TableRow 
+    
+    android:layout_marginTop="108px">
+   
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START" 
+        android:layout_marginLeft="90px"
+        android:typeface="serif"
+        
+       
+       
+        />
+        
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP" 
+        android:typeface="serif"
+        android:layout_marginLeft="108px"
+       
+        
+        />
+    </TableRow>
+    
+
+</TableLayout>

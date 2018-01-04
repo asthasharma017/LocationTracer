@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:stretchColumns="2" >
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="70dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="72dp"
+        android:layout_toLeftOf="@+id/et4"
+        android:text="Enter Password" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv11"
+        android:layout_alignBottom="@+id/tv11"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+   <Button
+        android:id="@+id/b9"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Ok" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Cancel" />
+
+</RelativeLayout>
